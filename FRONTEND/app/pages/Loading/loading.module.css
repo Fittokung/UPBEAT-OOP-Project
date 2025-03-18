@@ -1,0 +1,21 @@
+.menuContainer {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-size: cover;
+  background-image: url("a6.gif");
+}
+
+.movingText {
+  /* Add a new class for the animation */
+  animation: moveText 2s linear infinite alternate;
+}
+
+@keyframes moveText {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateY(15px);
+  } /* Move 200 pixels to the right */
+}

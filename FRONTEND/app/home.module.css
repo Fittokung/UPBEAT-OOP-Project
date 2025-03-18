@@ -1,0 +1,16 @@
+.desc {
+  font-size: 9vw;
+  color: aliceblue;
+  font-family: Loved;
+  margin-left: 100px;
+}
+
+.nameinput {
+  width: 70%; /* Adjust width as needed */
+  margin-top: 0px; /* Space between text and input */
+  padding: 10px; /* Interior padding for the input box */
+  border: 1px solid #ccc; /* Example light border */
+  border-radius: 5px; /* Optionally rounded corners */
+  font-size: 16px; /* Set a default font size */
+  margin-left: 90px;
+}

@@ -1,0 +1,88 @@
+.configurationPage {
+  background-image: url(a4.gif);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagContainer {
+  background-image: url("a5.gif");
+  background-size: contain;
+  background-repeat: no-repeat; /* Add this to prevent image repetition */
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 25px; /* Spacing from the top */
+  left: 45px; /* Spacing from the left */
+}
+
+.setting {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 33%;
+  border-radius: 8px;
+  padding: 13px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 13px;
+  
+}
+
+.setting label {
+  font-family: sun; /* Or the desired font */
+  font-size: 21px;
+  color: #ffffff; /* Example color change  */
+}
+
+.setting input[type="text"] {
+  width: 120px; /* Set a fixed width */
+  margin: 10px 0; /* Adjust margin as needed */
+  background-color: rgba(255, 255, 255, 0.243);
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 15px;
+  font-family: sun;
+  margin-top: 15px;
+}
+
+.setting input[type="range"] {
+  width: 80%;
+  margin: 10px 0;
+}
+.timePicker {
+  display: flex;
+  align-items: center;
+}
+
+.setting span {
+  font-size: 15px;
+  margin-top: 0px;
+  font-family: sun;
+  color: #ffffff;
+}
+
+.timePicker input[type="number"] {
+  background-color: rgba(255, 255, 255, 0.243);
+  width: 50px;
+  margin: 0 10px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 15px;
+  font-family: sun;
+  margin-top: 5px;
+
+}
+

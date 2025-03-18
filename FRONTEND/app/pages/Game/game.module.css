@@ -1,0 +1,12 @@
+.bg {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-size: cover;
+  background-image: url(a10.gif);
+}
+
+.counttimerwrapper {
+  margin-top: 20px; /* Adjust this value as needed */
+  margin-left: 20px ;
+}

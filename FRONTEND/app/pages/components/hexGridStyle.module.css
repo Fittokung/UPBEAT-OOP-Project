@@ -1,0 +1,15 @@
+.hex-grid-content {
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+  position: static;
+  height: 45px;
+  width: 50px;
+  background-color: #ffffff;
+  color: #ff6600;
+  align-items: center;
+  transition: transform 0.24s;
+  margin-bottom: 0px;
+}
+
+.hex-grid-content:hover {
+  background-color: red;
+}

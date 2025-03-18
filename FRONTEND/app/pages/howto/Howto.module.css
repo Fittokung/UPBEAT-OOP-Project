@@ -1,0 +1,25 @@
+.bg {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-size: cover;
+  background-image: url("a8.gif");
+}
+
+.box {
+  width: "500px";
+  height: "500px";
+  background-color: aliceblue;
+  overflow: auto;
+}
+
+.imagContainer {
+  background-image: url("a5.gif");
+  background-size: contain;
+  background-repeat: no-repeat; /* Add this to prevent image repetition */
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 20px;
+  left: 45px; /* Spacing from the left */
+}

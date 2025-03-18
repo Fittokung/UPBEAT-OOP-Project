@@ -1,0 +1,39 @@
+.countdown-timer {
+  font-size: 100px;
+  position: absolute;
+  top: 20px; /* Adjust the top distance as needed */
+  right: 20px; /* Adjust the right distance as needed */
+  font-family: lover;
+  color: white; /* Ensure visibility on the background */
+}
+
+.countdown-timer span.green {
+  color: green;
+}
+
+.countdown-timer span.yellow {
+  color: yellow;
+}
+
+.countdown-timer span.red {
+  color: red;
+}
+
+.countdown-timer.percentage-60 span.green,
+.countdown-timer.percentage-60 span.yellow,
+.countdown-timer.percentage-60 span.red {
+  color: green;
+}
+
+.countdown-timer.percentage-20 span.yellow,
+.countdown-timer.percentage-20 span.red {
+  color: yellow;
+}
+
+.countdown-timer.percentage-0 span.red {
+  color: red;
+}
+
+.two-numbers {
+  width: 2ch;
+}
