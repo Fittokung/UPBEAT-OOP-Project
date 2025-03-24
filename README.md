@@ -1,4 +1,4 @@
-# **UPBEAR_Game OOP Project**
+# **UPBEAT_Game OOP Project**
 
 ## **An overview of your server–client implementation**
 
